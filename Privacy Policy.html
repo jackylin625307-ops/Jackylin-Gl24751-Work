@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <style>
+body{
+    background: linear-gradient(to right, #ffffff, #b9fcff);
+    font-family:"Poppins", sans-serif;
+    margin:0;
+}
+header{
+    background: linear-gradient(to right, #ffffff, #b9fcff);
+    padding:20px 40px;
+}
+.nav-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    }
+.logo img{
+    width: 100px;
+}
+.logo h1{
+    margin:0;
+    color:#1f2937;
+}
+
+.logo p{
+    margin:0;
+    color:#6b7280;
+    font-size:14px;
+}
+
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:40px;
+    margin:0;
+    padding:0;
+}
+
+nav a{
+    text-decoration:none;
+    color:#374151;
+    font-size:18px;
+    padding:10px 20px;
+    border-radius:10px;
+}
+
+nav a.active{
+    background:#0d9488;
+    color:white;
+}
+
+
+
+nav a:hover{
+    background:#0d9488;
+    color:white;
+    transition: 0.5s;
+    transform:translateY(-3px) scale(1.09);
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+}
+
+
+        .irtro-block {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 100px;
+            background-color: #ccfbf1;
+            border-radius: 10px;
+        }
+        .irtro-block h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .irtro-block p {
+            font-size: 18px;
+            line-height: 1.6;
+
+        }
+        button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            font-size: 18px;
+            color: white;
+            background-color: #0d9488;
+            border: none;
+            border-radius: 200px;
+            cursor: pointer;
+            margin-bottom: 60px;
+        }
+
+         button:hover {
+            background-color: #0d9488;
+            text-decoration: underline white;
+            transition: 0.3s;
+            transform: translateY(-3px) scale(1.09);
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+        }
+
+    footer{
+    background:#0d9488;
+    color:white;
+    padding:20px 20px;
+    }
+    
+    .footer-container{
+    display:flex;
+    justify-content:space-between;
+    gap:40px;
+    max-width:700px;
+    margin:auto;
+    }
+    
+    .footer-left,
+    .footer-center,
+    .footer-right{
+    flex:1;
+    }
+    
+
+    #follow-us{
+    margin-bottom:10px;
+    text-align: center;
+    }
+    #h2{
+    margin-left: 18px;
+    }
+    #h3{
+    text-align: center;
+    }
+
+    footer ul{
+    list-style:none;
+    padding:0;
+    }
+
+    .footer-right ul{
+        display:flex;
+        gap:15px;
+        align-items:center;
+    }
+    footer li{
+    margin-bottom:10px;
+    }   
+    
+
+    footer a{
+    text-decoration:underline;
+    color:#d1fae5;
+    font-size: 18px;
+    }
+    
+    footer a:hover{
+    transform: translateY(-6px) scale(1.09);
+    color:#ccfbf1;
+    text-shadow:0 0 8px #ccfbf1;
+    transition: 0.5s;
+    }
+    
+    .footer-logo{
+        width:30px;
+        background:white;
+        border-radius:75%;
+        padding:5px;
+        transition:0.3s;
+        }
+
+    .footer-logo:hover{
+    transform:translateY(-3px)scale(1.09);
+    color:#ccfbf1;
+    box-shadow:0 0 10px #ccfbf1;
+    }
+
+    #nz-travel{
+    text-align: center;
+    margin-top: 20px;
+    color: #ccfbf1;
+    }
+    </style>
+        <header>
+
+            <div class="nav-container">
+            
+            <div class="logo">
+                  <div id="logo">
+                        <img src="NZ TravelA.png" alt="NZ Travel">
+                  </div>
+                <h1>NZ Travel</h1>
+                <p>Discover New Zealand</p>
+            </div>
+            
+            <nav>
+                <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Northern.html">North Island</a></li>
+                <li><a href="Southern.html">South Island</a></li>
+                </ul>
+            </nav>
+            
+            </div>
+            
+        </header>
+
+    <div class="irtro-block">
+    <h1>Privacy Policy</h1>
+    <p>This User Privacy Policy will help you understand how we collect, use, store, and manage your personal information.ur normal use of the basic business functions.
+        <br>
+         We will collect and use your personal information only for the following purposes:
+            <br>
+         The circumstances where you authorize us to collect and use your personal information
+
+        When you use our products and services, we need to collect and use some of your personal information. This type of information is essential for the normal operation of the products and services.
+        <br>
+         Users must authorize us to collect it. If users refuse to provide it, they will not be able to use our products and services normally. 
+        <br>
+         These functions include becoming our members, placing orders and reservations, payment functions, identity verification, customer service and after-sales functions, providing public information release functions, showing products and services to you, and using business functions.</p>
+    </div>
+    <script>
+        function showAlert(){
+            //const username = document.getElementById("username").value;
+           // const password = document.getElementById("password").value;
+
+            //if(username == "jacky" && password == "123456"){
+                alert("Accepting successfully！");
+                location.href = "index.html";
+           // }else if(username == "jacky" && password != "123456"){
+              //  alert("Incorrect password.");
+           // }else{
+            //   alert("Invalid username or password.");
+            }
+    </script>
+    <button onclick="showAlert()">Accepting Cookies</button>
+    <footer>
+        <h3 id="follow-us">Follow us</h3>
+            <div class="footer-container">
+                <div class="footer-left">
+                    <h3>Navigation</h3>
+                    <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Northern.html">North Island</a></li>
+                    <li><a href="Southern.html">South Island</a></li>
+                    </ul>
+                </div>
+                <div class="footer-center">
+                    <h3 id="h2">Link</h3>
+                    <ul>
+                        <li><a href="about us.html">About Us</a></li>
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="Privacy Policy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-right">
+                    <h3 id="h3">Follow us</h3>
+                    <ul>
+                        <li><a href="https://www.youtube.com/purenewzealand" target="_blank"><img src="social/youtube.png" alt="YouTube Logo" class="footer-logo"></a></li>
+                        <li><a href="https://www.facebook.com/purenewzealand" target="_blank"><img src="social/facebook.png" alt="Facebook Logo" class="footer-logo"></a></li>
+                        <li><a href="https://twitter.com/purenewzealand" target="_blank"><img src="social/twitter.png" alt="Twitter Logo" class="footer-logo"></a></li>
+                        <li><a href="https://www.instagram.com/purenewzealand/" target="_blank"><img src="social/instagram.png" alt="Instagram Logo" class="footer-logo"></a></li>
+                    </ul>   
+                </div>
+            </div>
+                <p id="nz-travel">© 2026 NZ Travel Website</p>
+        </footer>
+</body>
+</html>
