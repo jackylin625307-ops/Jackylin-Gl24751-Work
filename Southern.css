@@ -122,7 +122,11 @@ nav a:hover{
     padding: 0 40px;
     line-height: 1.6;
 }
-
+.north-text h1{
+    font-size: 34px;
+    margin-bottom: 15px;
+    color: #111D4A;
+}
 .map{
     width: 1000px;
     display: flex;
